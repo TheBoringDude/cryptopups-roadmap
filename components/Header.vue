@@ -1,7 +1,11 @@
 <template>
   <header class="py-12 bg-warmGray-800">
     <div class="w-5/6 mx-auto text-center">
-      <img src="~assets/logo.png" class="mx-auto h-14" />
+      <a
+        href="https://www.worldofcryptopups.cf/"
+        title="Return to World of Cryptopups"
+        ><img src="~assets/logo.png" class="mx-auto h-14"
+      /></a>
 
       <div class="">
         <h1
