@@ -3,7 +3,8 @@
     class="
       w-full
       md:w-4/5
-      lg:w-1/2
+      lg:w-3/5
+      bg-white
       py-4
       px-2
       my-12

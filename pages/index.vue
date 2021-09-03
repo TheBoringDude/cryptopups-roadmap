@@ -31,7 +31,15 @@ export default {
 
   head() {
     return {
-      title: 'Roadmap | World of Cryptopups',
+      title: 'Roadmap',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Follow World of Cryptopups's plans, goals, and solutions for the future. To the moon! ",
+        },
+      ],
     }
   },
 }
