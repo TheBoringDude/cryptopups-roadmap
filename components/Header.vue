@@ -1,5 +1,5 @@
 <template>
-  <header class="py-12 bg-warmGray-900">
+  <header class="py-12 bg-warmGray-800">
     <div class="w-5/6 mx-auto text-center">
       <img src="~assets/logo.png" class="mx-auto h-14" />
 
