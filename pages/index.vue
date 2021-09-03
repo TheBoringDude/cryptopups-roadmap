@@ -2,9 +2,9 @@
   <div>
     <Header />
 
-    <div class="py-20 w-11/12 mx-auto">
+    <div class="py-20 w-11/12 mx-auto timeline">
       <RoadContainer
-        v-for="(pl, index) in plans"
+        v-for="(pl, index) in plans.plans"
         :key="index"
         :plan="pl"
         :index="index"

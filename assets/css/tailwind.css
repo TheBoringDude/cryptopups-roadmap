@@ -7,3 +7,28 @@
 body {
   @apply bg-gray-50;
 }
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+  @apply bg-warmGray-500;
+}
+
+@media (max-width: 768px) {
+  .timeline::after {
+    left: 13px;
+  }
+}

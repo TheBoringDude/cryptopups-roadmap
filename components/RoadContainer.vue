@@ -1,36 +1,50 @@
 <template>
   <div
     class="
-      w-full
-      md:w-4/5
-      lg:w-3/5
-      bg-white
-      py-4
-      px-2
+      w-5/6
+      mx-auto
+      md:w-full
+      flex flex-col-reverse
+      items-center
+      justify-center
       my-12
-      lg:my-6
-      shadow-2xl
-      rounded-xl
-      border-warmGray-500
     "
-    :class="index % 2 == 0 ? 'mr-auto border-r-8' : 'ml-auto border-l-8'"
+    :class="index % 2 == 0 ? 'md:flex-row' : 'md:flex-row-reverse'"
   >
-    <div class="p-4">
-      <h3 class="font-black tracking-wide text-warmGray-700 text-3xl">
-        {{ plan.month }} {{ plan.year }}
-      </h3>
+    <div
+      class="
+        w-full
+        md:w-1/2
+        bg-white
+        py-8
+        px-6
+        mx-4
+        shadow-2xl
+        rounded-xl
+        border border-warmGray-200
+      "
+    >
+      <h2 class="font-black text-2xl tracking-wide text-gray-600">
+        {{ plan.title }}
+      </h2>
       <ul class="ml-5 mt-2">
         <li
           v-for="(e, idx) in plan.events"
           :key="idx"
           class="text-lg my-2 list-disc"
         >
-          <strong v-if="e.date" class="text-warmGray-700"
-            >({{ e.date }})</strong
-          >
-          {{ e.info }}
+          {{ e }}
         </li>
       </ul>
+    </div>
+
+    <div class="w-full md:w-1/2">
+      <h3
+        class="font-black mx-12 text-5xl tracking-wide text-warmGray-700"
+        :class="index % 2 == 0 ? 'md:text-left' : 'md:text-right'"
+      >
+        {{ plan.no }}
+      </h3>
     </div>
   </div>
 </template>
