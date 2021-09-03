@@ -1,20 +1,24 @@
 plans:
   - no: '01'
+    done: true
     title: Successfully implemented the World of Cryptopups (WoC) into a blockchain foundation
     events:
       - Innovated and built a functional community with a hierarchy and ability engaged in trading and blending.
   - no: '02'
+    done: true
     title: Enacted a first major airdrop (Rainbow Pups and Celestial Pup Drops)
     events:
       - Amassed a twitter following to support the whole brand.
       - Airdropped NFTs to the Cryptopuppy Community.
   - no: '03'
+    done: true
     title: Paved the way to sell / distribute three major packs.
     events:
       - Charity drop for a non-goverment, non-profit, animal-care instution amounting to $480.
       - Sold out second major pack (Void Pack).
       - Sold out third major pack (Royal Pack).
   - no: '04'
+    done: true
     title: Launching of World of Cryptopups Adventure Cards
     events:
       - Adventure Card Drsop for the probable upcoming "Cryptopuppie Adventure Game"
@@ -22,11 +26,13 @@ plans:
       - Discord Quests
       - VIPups Rewards
   - no: '05'
+    done: true
     title: WAX Blockchain Community Collab
     events:
       - Underwent one of the biggest community collabs in the WAX Blockchain with 25 participants.
       - Donated 12,761 wax to the "Uplift.Art Build-a-School Program" in Haiti, Hawaii using sales from the community collab.
   - no: '06'
+    done: true
     title: Whitepaper
     events:
       - About the project
@@ -34,21 +40,25 @@ plans:
       - Roadmap
       - Pack details
   - no: '07'
+    done: true
     title: Website Launch
     events:
       - DPS Calculator integration
       - Rarities Overview
   - no: '08'
+    done: true
     title: Exclusive NFT Drops
     events:
       - Ruby, Platinum, Gold, Silver, Bronzr Season Pass
       - Exclusive Role Drops
       - Special Drops
   - no: '09'
-    title: Platform Dev
+    done: false
+    title: Platform Development
     events:
       - Staking Platform
       - Marketplace Platform
       - Game planning
   - no: '10'
+    done: false
     title: Blockchain Game
