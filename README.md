@@ -1,29 +1,5 @@
-# Nuxt 3 Minimal Starter
+# cryptopups-roadmap
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+This is the source code for the Roadmap website of World of Cryptopups.
 
-## Setup
-
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+## NOTE: ON-GOING RE-WRITE
